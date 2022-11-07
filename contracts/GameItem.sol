@@ -10,7 +10,7 @@ contract GameItem is ERC721URIStorage, Ownable {
     Counters.Counter private _tokenIds;
 
     // set contract name and ticker. 
-    constructor() ERC721("Sweet Moon Nft", "SMN") {}
+    constructor() ERC721("HologyMumbaiTest", "HMT") {}
 
     //get the current supply of tokens
     function totalSupply() public view returns (uint256) {
